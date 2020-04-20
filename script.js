@@ -125,7 +125,12 @@ function rockPaperScissors(num) {
     }
 }
 
-rockPaperScissors(3);
-rockPaperScissors(2);
-rockPaperScissors(5);
+try {
+    rockPaperScissors(3);
+    rockPaperScissors(2);
+    rockPaperScissors(5);
+} catch(err){
+    console.log(err);
+}
+
 
